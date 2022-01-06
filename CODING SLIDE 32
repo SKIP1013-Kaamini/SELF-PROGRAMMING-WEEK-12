@@ -1,0 +1,21 @@
+package SELFPROGRAMMING;
+import java.util.Scanner;
+class SLIDE32 {
+
+	public static int readAge() {
+		Scanner read = new Scanner (System.in) ;//enter age
+		int age = 0;
+		do {
+			System.out.println("Please enter your age (1-100)");
+			age = read.nextInt();
+			
+		}
+		while ((age < 1 ) || (age > 100));//valid age check
+		return age;//return number to main
+		
+		
+		
+
+	}
+
+}
