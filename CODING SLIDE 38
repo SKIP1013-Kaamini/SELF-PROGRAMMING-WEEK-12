@@ -1,0 +1,19 @@
+package SELFPROGRAMMING;
+import java.util.Scanner;
+
+class SLIDE38 {
+	
+	public static int readAge(int max) {
+		Scanner read = new Scanner (System.in) ;//enter age
+		int age = 0;
+		do {
+			System.out.println("Please enter your age (1-"+max+") : ");
+			age = read.nextInt();
+			
+		}
+		while ((age < 1 ) || (age > max));//valid age check
+		return age;//return number to main
+
+	}
+
+}
