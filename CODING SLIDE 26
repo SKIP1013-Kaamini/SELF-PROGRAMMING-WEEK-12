@@ -1,0 +1,23 @@
+package SELFPROGRAMMING;
+
+class SLIDE26 {
+
+	
+	
+	public static void printSquare(int x) {//printSquare method will show the doubled value
+		System.out.println(x*x);
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int value = 2;
+		printSquare(value);//value is squared
+		printSquare(3);
+		printSquare(value*2);
+
+	}
+
+}
